@@ -18,7 +18,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name="pywinmem",
-    version="0.1.1",
+    version="0.1.2",
     author="fuckin_busy",
     author_email="",
     description="Windows memory manipulation toolkit for Python",

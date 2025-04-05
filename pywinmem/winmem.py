@@ -13,8 +13,8 @@
 
 import warnings
 
-from low import winmem_low as _wml
-from low.winmem_types import WINMEM_CALLBACK_STOP, WINMEM_CALLBACK_CONTINUE, ProcessAccess, MemoryAccess
+from .low import winmem_low as _wml
+from .low.winmem_types import WINMEM_CALLBACK_STOP, WINMEM_CALLBACK_CONTINUE, ProcessAccess, MemoryAccess
 
 
 class Enumerator:

@@ -13,8 +13,8 @@
 
 from os import path
 
-from low.winmem_decorators import *
-from low.winmem_types import *
+from .winmem_decorators import *
+from .winmem_types import *
 
 ENABLE_LOGGING = False
 

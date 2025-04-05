@@ -15,5 +15,5 @@
 from .winmem import Enumerator, Thread, Module, Process
 from .low.winmem_types import ProcessAccess, MemoryAccess
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __all__ = ["Enumerator", "Thread", "Module", "Process", "ProcessAccess", "MemoryAccess"]
