@@ -18,7 +18,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name="pywinmem",
-    version="0.1.0",
+    version="0.1.1",
     author="fuckin_busy",
     author_email="",
     description="Windows memory manipulation toolkit for Python",
@@ -29,9 +29,9 @@ setup(
     package_data={
         "pywinmem.low": ["*.dll"],
     },
-    install_requires=["ctypes"],
+    install_requires=[],
     python_requires=">=3.10",
-    license="GNU General Public License v3 (GPLv3)",
+    license="GPL-3.0-or-later",
     classifiers=[
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
